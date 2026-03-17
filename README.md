@@ -1,7 +1,7 @@
 ## Como desenvolver o projeto na sua máquina:
 
 1. Baixar JDK 21 e configurar na sua máquina.
-2. Você deve usar o comando deixado abaixo na pasta onde você deseja salvar o projeto
+2. Você deve usar o comando deixado abaixo usando o cmd ou PowerShell na pasta onde você deseja salvar o projeto
 ```bash
 git clone https://github.com/danfornazeiro/woonstel.git
 ```
