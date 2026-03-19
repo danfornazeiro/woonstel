@@ -27,6 +27,7 @@ public class Task {
     //image
     private PriorityEnum priority;
     private StatusTask status;
+    private Double budget;
 
     private LocalDateTime createdAt;
 
@@ -35,8 +36,8 @@ public class Task {
     private Employee employee;
 
     @ManyToOne
-    @JoinColumn(name = "resident_id")
-    private Resident resident;
+    @JoinColumn(name = "solicitation_id")
+    private Solicitation solicitation ;
 
 
 }

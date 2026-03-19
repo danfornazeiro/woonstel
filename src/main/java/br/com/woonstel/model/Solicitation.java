@@ -15,7 +15,7 @@ import java.util.UUID;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Request {
+public class Solicitation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)

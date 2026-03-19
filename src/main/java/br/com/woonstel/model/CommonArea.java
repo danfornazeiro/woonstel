@@ -1,6 +1,7 @@
 package br.com.woonstel.model;
 
 import br.com.woonstel.model.enums.CommonAreaStatusEnum;
+import br.com.woonstel.model.enums.StatusCommonArea;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -24,5 +25,6 @@ public class CommonArea {
     private String name;
     private CommonAreaStatusEnum status;
     private Double price;
+    private StatusCommonArea statusCommonArea;
 
 }
